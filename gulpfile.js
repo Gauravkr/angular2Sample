@@ -14,13 +14,7 @@ var tsc = require('gulp-typescript');
 var uglify = require('gulp-uglify');
 var watch = require('gulp-watch');
 var insert = require('gulp-insert');
-
-
-    var sass = require('gulp-sass');
-
-
-
-
+var sass = require('gulp-sass');
 
 var Builder = require('systemjs-builder');
 var del = require('del');
